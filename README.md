@@ -2,25 +2,25 @@
 APC DevSQUAD's primary GitHub repository.
 
 ## Team list and designations
-Dartegnian Velarde
+**Dartegnian Velarde**
 
 *Website design and bot developer*
 
 
-Jade Ericson Adriano
+**Jade Ericson Adriano**
 
 *Full stack web developer*
 
 
-Vincent Junior Chua Huliganga
+**Vincent Junior Chua Huliganga**
 
 *Full stack web developer*
 
 
-Michon Erick Bojador
+**Michon Erick Bojador**
 
 *Android application developer*
 
-Gabriel Estabillo
+**Gabriel Estabillo**
 
 *Android application developer*
