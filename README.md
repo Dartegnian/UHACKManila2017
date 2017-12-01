@@ -21,6 +21,6 @@ APC DevSQUAD's primary GitHub repository.
 
 *Android application developer*
 
-**Gabriel Estabillo**
+**Gabriel Angelo Estabillo**
 
 *Android application developer*
