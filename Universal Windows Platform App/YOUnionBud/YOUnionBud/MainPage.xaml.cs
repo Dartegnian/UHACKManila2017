@@ -2,8 +2,10 @@
 using Windows.Foundation.Metadata;
 using Windows.UI;
 using Windows.UI.ViewManagement;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
+using YOUnionBud.Views;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -19,6 +21,8 @@ namespace YOUnionBud
         public MainPage()
         {
             this.InitializeComponent();
+            Loaded += MainPage_Loaded;
+            // change status bar color
             if (ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
             {
 
@@ -30,6 +34,10 @@ namespace YOUnionBud
                     statusBar.ForegroundColor = Colors.White;
                 }
             }
+        }
+        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Login));
         }
     }
 }

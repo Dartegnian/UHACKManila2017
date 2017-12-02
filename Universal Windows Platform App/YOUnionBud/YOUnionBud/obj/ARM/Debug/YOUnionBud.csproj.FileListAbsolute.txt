@@ -210,3 +210,13 @@ C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\qualifiers.
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\qualifiers.txt.intermediate
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\ARM\Debug\Views\Login.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Login.g.i.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Login.g.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Login.xaml
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Login.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\ARM\Debug\Views\Welcome.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Welcome.g.i.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Welcome.g.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Welcome.xaml
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\Welcome.xbf

@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7C9212451282D8FBD2986DDD0C55EE32575DA6F3FD1E983F0FFE7D2C53DACC07</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>7AE0BE8A2C3DE070A0922B5F21ABCB9C1B3BB940AAB04A4E1A95170CCB00D747</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3f53ddf2-cfbd-4d4c-ae1c-0947ba5c42b1_1.0.0.0_x64__pmz722v7msqj8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3f53ddf2-cfbd-4d4c-ae1c-0947ba5c42b1_pmz722v7msqj8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3f53ddf2-cfbd-4d4c-ae1c-0947ba5c42b1</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:38:47.034</Modified>
+      <Modified>2017-12-02T12:00:42.408</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\YOUnionBud.exe">
       <PackagePath>entrypoint\YOUnionBud.exe</PackagePath>
-      <Modified>2017-12-02T10:38:38.674</Modified>
+      <Modified>2017-12-02T12:00:40.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -498,87 +498,87 @@
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:04:47.361</Modified>
+      <Modified>2017-12-02T11:11:57.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:04:47.494</Modified>
+      <Modified>2017-12-02T11:11:57.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:04:47.570</Modified>
+      <Modified>2017-12-02T11:11:57.761</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:04:48.221</Modified>
+      <Modified>2017-12-02T11:11:58.523</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.058</Modified>
+      <Modified>2017-12-02T11:07:28.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.152</Modified>
+      <Modified>2017-12-02T11:07:28.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.092</Modified>
+      <Modified>2017-12-02T11:07:28.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.111</Modified>
+      <Modified>2017-12-02T11:07:28.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.811</Modified>
+      <Modified>2017-12-02T11:07:28.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.828</Modified>
+      <Modified>2017-12-02T11:07:28.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.845</Modified>
+      <Modified>2017-12-02T11:07:28.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.887</Modified>
+      <Modified>2017-12-02T11:07:28.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.956</Modified>
+      <Modified>2017-12-02T11:07:28.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.971</Modified>
+      <Modified>2017-12-02T11:07:28.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.042</Modified>
+      <Modified>2017-12-02T11:07:28.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.989</Modified>
+      <Modified>2017-12-02T11:07:28.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.005</Modified>
+      <Modified>2017-12-02T11:07:28.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -587,7 +587,7 @@
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:04:47.696</Modified>
+      <Modified>2017-12-02T11:11:57.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
@@ -597,12 +597,12 @@
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:34.863</Modified>
+      <Modified>2017-12-02T11:07:28.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:05:35.074</Modified>
+      <Modified>2017-12-02T11:07:28.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -620,7 +620,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\YOUnionBud.xr.xml">
       <PackagePath>YOUnionBud.xr.xml</PackagePath>
-      <Modified>2017-12-02T10:38:38.262</Modified>
+      <Modified>2017-12-02T12:00:39.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -629,11 +629,11 @@
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-02T10:38:45.875</Modified>
+      <Modified>2017-12-02T12:00:41.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\Core\YOUnionBud.exe">
       <PackagePath>YOUnionBud.exe</PackagePath>
-      <Modified>2017-12-02T10:38:47.029</Modified>
+      <Modified>2017-12-02T12:00:42.401</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

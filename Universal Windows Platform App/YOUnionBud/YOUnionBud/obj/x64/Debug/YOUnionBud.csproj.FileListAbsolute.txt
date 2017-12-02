@@ -210,3 +210,9 @@ C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\qualifiers.
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\x64\Debug\Views\Login.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\YOUnionBud.csprojResolveAssemblyReference.cache
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\Views\Login.g.i.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\Views\Login.g.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\Views\Login.xaml
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\x64\Debug\Views\Login.xbf
