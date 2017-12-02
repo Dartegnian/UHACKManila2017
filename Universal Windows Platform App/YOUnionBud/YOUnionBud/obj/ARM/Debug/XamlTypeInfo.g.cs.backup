@@ -132,19 +132,21 @@ namespace YOUnionBud.YOUnionBud_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "YOUnionBud.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "YOUnionBud.Views.Login";
-            _typeNameTable[4] = "YOUnionBud.Views.Welcome";
+            _typeNameTable[4] = "YOUnionBud.Views.UserSelection";
+            _typeNameTable[5] = "YOUnionBud.Views.Welcome";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::YOUnionBud.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::YOUnionBud.Views.Login);
-            _typeTable[4] = typeof(global::YOUnionBud.Views.Welcome);
+            _typeTable[4] = typeof(global::YOUnionBud.Views.UserSelection);
+            _typeTable[5] = typeof(global::YOUnionBud.Views.Welcome);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -181,7 +183,8 @@ namespace YOUnionBud.YOUnionBud_XamlTypeInfo
 
         private object Activate_0_MainPage() { return new global::YOUnionBud.MainPage(); }
         private object Activate_3_Login() { return new global::YOUnionBud.Views.Login(); }
-        private object Activate_4_Welcome() { return new global::YOUnionBud.Views.Welcome(); }
+        private object Activate_4_UserSelection() { return new global::YOUnionBud.Views.UserSelection(); }
+        private object Activate_5_Welcome() { return new global::YOUnionBud.Views.Welcome(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -215,9 +218,16 @@ namespace YOUnionBud.YOUnionBud_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  YOUnionBud.Views.Welcome
+            case 4:   //  YOUnionBud.Views.UserSelection
                 userType = new global::YOUnionBud.YOUnionBud_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_4_Welcome;
+                userType.Activator = Activate_4_UserSelection;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  YOUnionBud.Views.Welcome
+                userType = new global::YOUnionBud.YOUnionBud_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_Welcome;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

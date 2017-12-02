@@ -225,3 +225,8 @@ C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\UserS
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\UserSelection.g.cs
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\UserSelection.xaml
 C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\UserSelection.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\bin\ARM\Debug\Views\PassportRegister.xbf
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\PassportRegister.g.i.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\PassportRegister.g.cs
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\PassportRegister.xaml
+C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\obj\ARM\Debug\Views\PassportRegister.xbf

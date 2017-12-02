@@ -57,6 +57,7 @@
       <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="YOUnionBud.Views.Login" />
+    <RootType FullName="YOUnionBud.Views.PassportRegister" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Margin" />
       <RootProperty Name="MaxHeight" />

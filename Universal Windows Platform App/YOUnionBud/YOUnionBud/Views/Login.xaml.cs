@@ -28,6 +28,7 @@ namespace YOUnionBud.Views
         private void RegisterButtonTextBlock_OnPointerPressed(object sender, PointerRoutedEventArgs e)
         {
             ErrorMessage.Text = "";
+            Frame.Navigate(typeof(PassportRegister));
         }
         /// <summary>
         /// Function called when this frame is navigated to.
@@ -84,7 +85,5 @@ namespace YOUnionBud.Views
                 ErrorMessage.Text = "Invalid Credentials";
             }
         }
-
-
     }
 }
