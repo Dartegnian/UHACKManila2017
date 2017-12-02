@@ -56,12 +56,13 @@
                 android:layout_marginLeft="150dp"/>
 
 
+
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:layout_collapseMode="pin"
-                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
 
             </android.support.v7.widget.Toolbar>
 
@@ -75,7 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="fill_vertical"
-        android:background="@drawable/gray"
+        android:background="@drawable/asd"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 

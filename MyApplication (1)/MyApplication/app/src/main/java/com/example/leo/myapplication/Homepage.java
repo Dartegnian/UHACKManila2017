@@ -8,6 +8,6 @@ public class Homepage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-                                setContentView(R.layout.homepage);
+        setContentView(R.layout.homepage);
     }
 }
