@@ -11,5 +11,10 @@
   <PropertyGroup>
     <SplashScreenSource>C:\Users\Dartegnian\Desktop\YOUnionBudwhite.png</SplashScreenSource>
     <AppIconSource>C:\Users\Dartegnian\Desktop\white.png</AppIconSource>
+    <SmallTileSource>C:\Users\Dartegnian\Desktop\white.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Dartegnian\Desktop\white.png</MediumTileSource>
+    <WideTileSource>C:\Users\Dartegnian\Desktop\YOUnionBudwhite.png</WideTileSource>
+    <BadgeLogoSource>C:\Users\Dartegnian\Desktop\white.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\Dartegnian\Desktop\transparentlog.png</PackageLogoSource>
   </PropertyGroup>
 </Project>

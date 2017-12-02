@@ -7,8 +7,6 @@ using YOUnionBud.Utils;
 using YOUnionBud.Models;
 using System.Diagnostics;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
-
 namespace YOUnionBud.Views
 {
     public sealed partial class Login : Page
@@ -30,6 +28,7 @@ namespace YOUnionBud.Views
             ErrorMessage.Text = "";
             Frame.Navigate(typeof(PassportRegister));
         }
+
         /// <summary>
         /// Function called when this frame is navigated to.
         /// Checks to see if Microsoft Passport is available and if an account was passed in.
