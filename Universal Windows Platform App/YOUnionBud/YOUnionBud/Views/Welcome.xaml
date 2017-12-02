@@ -7,18 +7,39 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/back2.jpg"/>
+        </Grid.Background>
         <StackPanel Orientation="Vertical">
-            <TextBlock x:Name="Title" Text="Welcome" FontSize="40" TextAlignment="Center"/>
-            <TextBlock x:Name="UserNameText" FontSize="28" TextAlignment="Center" Foreground="Black"/>
+            <TextBlock x:Name="Title" Text="Welcome" FontSize="40" TextAlignment="Center" FontFamily="Segoe UI Semilight" Margin="0,20,0,0"/>
+            <TextBlock x:Name="UserNameText" FontSize="18" TextAlignment="Center" Foreground="White"/>
 
-            <Button x:Name="BackToUserListButton" Content="Back to User List" Click="Button_Restart_Click"
-            HorizontalAlignment="Center" Margin="0,20" Foreground="White" Background="DodgerBlue"/>
+            <TextBlock Text="Account balance" Margin="0,40,0,20"
+               TextWrapping="Wrap" Width="300"
+               TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
 
+            <TextBox x:Name="acctBal" Margin="55,4,55,4" IsReadOnly="True"/>
+
+            <TextBlock Text="Account functions" Margin="0,30,0,20"
+               TextWrapping="Wrap" Width="300"
+               TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+            
+            <StackPanel Margin="0" Orientation="Horizontal">
+                <Button x:Name="SendMoney" Content="Send Money" Click="Button_Restart_Click"
+            HorizontalAlignment="Center" Margin="70,20,10,20" Foreground="White" Background="#FF51FF1E" MinWidth="100" HorizontalContentAlignment="Center" Padding="10,4,10,4" Width="125"/>
+                
+                <Button x:Name="ReceiveMoney" Content="Receive Money " Click="Button_Restart_Click"
+            HorizontalAlignment="Right" Margin="30,20,40,20" Foreground="White" Background="#FF51FF1E" MinWidth="100" HorizontalContentAlignment="Right" Padding="10,4,10,4" Width="125"/>
+            </StackPanel>
+
+            <Button x:Name="BackToUserListButton" Content="Log Out
+                    " Click="Button_Restart_Click"
+            HorizontalAlignment="Center" Margin="0,20" Foreground="White" Background="DodgerBlue" MinWidth="100"/>
             <Button x:Name="ForgetButton" Content="Forget Me" Click="Button_Forget_User_Click"
             Foreground="White"
-            Background="Gray"
-            HorizontalAlignment="Center"/>
+            Background="Red"
+            HorizontalAlignment="Center" MinWidth="100" Margin="130,0,130,0"/>
         </StackPanel>
     </Grid>
 </Page>

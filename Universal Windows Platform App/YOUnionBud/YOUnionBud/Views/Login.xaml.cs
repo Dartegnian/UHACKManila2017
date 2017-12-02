@@ -23,7 +23,7 @@ namespace YOUnionBud.Views
             ErrorMessage.Text = "";
             SignInPassport();
         }
-        private void RegisterButtonTextBlock_OnPointerPressed(object sender, PointerRoutedEventArgs e)
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
         {
             ErrorMessage.Text = "";
             Frame.Navigate(typeof(PassportRegister));

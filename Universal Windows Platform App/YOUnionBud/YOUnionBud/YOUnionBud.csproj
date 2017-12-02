@@ -111,6 +111,9 @@
     <Compile Include="Views\UserSelection.xaml.cs">
       <DependentUpon>UserSelection.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\VisionApiExplorer.xaml.cs">
+      <DependentUpon>VisionApiExplorer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Welcome.xaml.cs">
       <DependentUpon>Welcome.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,8 @@
     <None Include="YOUnionBud_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\back1.jpg" />
+    <Content Include="Assets\back2.jpg" />
     <Content Include="Assets\BadgeLogo.scale-100.png" />
     <Content Include="Assets\BadgeLogo.scale-125.png" />
     <Content Include="Assets\BadgeLogo.scale-150.png" />
@@ -188,6 +193,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\UserSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\VisionApiExplorer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

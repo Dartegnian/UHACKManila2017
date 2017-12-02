@@ -9,22 +9,31 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical">
-            <TextBlock x:Name="Title" Text="Register New Passport User" FontSize="24" Margin="4" TextAlignment="Center"/>
+            <Image x:Name="image" Height="100" Source="ms-appx:///Assets/Wide310x150Logo.png" VerticalAlignment="Top" Margin="0,20,0,0" RequestedTheme="Dark" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+            <TextBlock x:Name="Title" Text="Register New User" FontSize="24" Margin="4,30,4,4" TextAlignment="Center"/>
 
-            <TextBlock x:Name="ErrorMessage" Text="" FontSize="20" Margin="4" Foreground="Red" TextAlignment="Center"/>
+            <TextBlock x:Name="ErrorMessage" Text="" FontSize="15" Margin="4" Foreground="Red" TextAlignment="Center"/>
 
-            <TextBlock Text="Enter your new username below" Margin="0,0,0,20"
+            <TextBlock Text="Enter your new username" Margin="0,0,0,20"
                TextWrapping="Wrap" Width="300"
                TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
 
             <TextBox x:Name="UsernameTextBox" Margin="4" Width="250"/>
 
+            <TextBlock Text="Enter your new password" Margin="0,10,0,20"
+               TextWrapping="Wrap" Width="300"
+               TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+
+            <PasswordBox x:Name="PasswordTextBox" Margin="4" Width="250"/>
+
+            <PasswordBox x:Name="PasswordConfirmTextBox" Margin="4" Width="250"/>
+
             <Button x:Name="PassportRegisterButton" Content="Register" Background="DodgerBlue" Foreground="White"
         Click="RegisterButton_Click_Async" Width="80" HorizontalAlignment="Center" Margin="0,20"/>
 
             <Border x:Name="PassportStatus" Background="#22B14C"
-               Margin="4" Height="100">
-                <TextBlock x:Name="PassportStatusText" Text="Microsoft Passport is ready to use!" FontSize="20"
+               Margin="4,30,4,4" Height="100">
+                <TextBlock x:Name="PassportStatusText" Text="Functions activated!" FontSize="20"
              Margin="4" TextAlignment="Center" VerticalAlignment="Center"/>
             </Border>
         </StackPanel>

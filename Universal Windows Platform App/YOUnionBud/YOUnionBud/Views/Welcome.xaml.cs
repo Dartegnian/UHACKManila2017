@@ -4,16 +4,21 @@ using System.Diagnostics;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI.Xaml;
+using System;
 
 namespace YOUnionBud.Views
 {
     public sealed partial class Welcome : Page
     {
         private Account _activeAccount;
+        Random rnd = new Random();
+        int accountBal;
 
         public Welcome()
         {
             InitializeComponent();
+            accountBal = rnd.Next(18649, 236156);
+            acctBal.Text = "₱ " + string.Format("{0:n0}", accountBal);
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

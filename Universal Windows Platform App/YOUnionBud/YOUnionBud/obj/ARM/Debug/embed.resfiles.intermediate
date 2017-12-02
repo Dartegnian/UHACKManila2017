@@ -3,4 +3,5 @@ MainPage.xbf
 Views\Login.xbf
 Views\PassportRegister.xbf
 Views\UserSelection.xbf
+Views\VisionApiExplorer.xbf
 Views\Welcome.xbf

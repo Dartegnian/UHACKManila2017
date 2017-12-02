@@ -109,7 +109,7 @@ namespace YOUnionBud.Utils
                 return false;
             }
 
-            if (!string.Equals(username, "sampleUsername"))
+            if (!string.Equals(username, "admin"))
             {
                 return false;
             }

@@ -26,7 +26,8 @@ namespace YOUnionBud
                 if (statusBar != null)
                 {
                     statusBar.BackgroundOpacity = 1;
-                    statusBar.BackgroundColor = Color.FromArgb(230, 152, 0, 1);
+                    //statusBar.BackgroundColor = Color.FromArgb(230, 152, 0, 1);
+                    statusBar.BackgroundColor = Colors.Black;
                     statusBar.ForegroundColor = Colors.White;
                 }
             }

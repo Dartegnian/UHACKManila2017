@@ -367,6 +367,12 @@
     <AppxPackagedFile Include="C:\Users\Dartegnian\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\back1.jpg">
+      <PackagePath>Assets\back1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\back2.jpg">
+      <PackagePath>Assets\back2.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dartegnian\source\repos\YOUnionBud\YOUnionBud\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

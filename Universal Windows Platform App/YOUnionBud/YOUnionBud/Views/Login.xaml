@@ -7,29 +7,30 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/back1.jpg"/>
+        </Grid.Background>
         <StackPanel Orientation="Vertical">
-            <TextBlock Text="Login" FontSize="36" Margin="4" TextAlignment="Center"/>
+            <Image x:Name="image" Height="100" Source="ms-appx:///Assets/Wide310x150Logo.png" VerticalAlignment="Top" Margin="0,20,0,0" RequestedTheme="Dark" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"/>
+            <TextBlock Text="Login" FontSize="36" Margin="4,40,4,4" TextAlignment="Center" Foreground="White"/>
             <TextBlock x:Name="ErrorMessage" Text="" FontSize="20" Margin="4" Foreground="Red" TextAlignment="Center"/>
-            <TextBlock Text="Enter your username below" Margin="0,0,0,20"
+            <TextBlock Text="Enter your username below" Margin="30,30,30,20"
                TextWrapping="Wrap" Width="300"
-               TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
-            <TextBox x:Name="UsernameTextBox" Margin="4" Width="250"/>
+               TextAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="White"/>
+            <TextBox x:Name="UsernameTextBox" Margin="55,4,55,4" Width="250"/>
             <Button x:Name="PassportSignInButton" Content="Login" Background="DodgerBlue" Foreground="White"
-        Click="PassportSignInButton_Click" Width="80" HorizontalAlignment="Center" Margin="0,20"/>
+        Click="PassportSignInButton_Click" Width="120" HorizontalAlignment="Center" Margin="120,20,120,20"/>
             <TextBlock Text="Don't have an account?"
-                TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
-            <TextBlock x:Name="RegisterButtonTextBlock" Text="Register now"
-               PointerPressed="RegisterButtonTextBlock_OnPointerPressed"
-               Foreground="DodgerBlue"
-               TextAlignment="Center" VerticalAlignment="Center" FontSize="16"/>
+                TextAlignment="Center" VerticalAlignment="Center" FontSize="16" Foreground="White"/>
+            <Button x:Name="RegisterButtonTextBlock" Content="Register now" Background="DodgerBlue" Foreground="White"
+        Click="RegisterButton_Click" Width="120" HorizontalAlignment="Center" Margin="120,20,120,20"/>
             <Border x:Name="PassportStatus" Background="#22B14C"
-               Margin="0,20" Height="100" >
-                <TextBlock x:Name="PassportStatusText" Text="Microsoft Passport is ready to use!"
+               Margin="0,20,0,100" Height="100" BorderThickness="0,0,0,4" >
+                <TextBlock x:Name="PassportStatusText" Text="Functions activated"
              Margin="4" TextAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
             </Border>
-            <TextBlock x:Name="LoginExplaination" FontSize="24" TextAlignment="Center" TextWrapping="Wrap" 
-        Text="Please Note: To demonstrate a login, validation will only occur using the default username 'sampleUsername'"/>
+
         </StackPanel>
     </Grid>
 </Page>
