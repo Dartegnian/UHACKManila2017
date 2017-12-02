@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="1"
+    android:gravity="center"
+    tools:context="com.example.leo.myapplication.Homepage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/appbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapstoolbar"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:title="Welcome, Mr. Uhack"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:contentScrim="?attr/colorPrimary"
+            android:background="@drawable/transparentlog">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/user"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee Name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="100dp"
+                android:id="@+id/txUserName"
+                android:layout_marginLeft="150dp"/>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="@color/lightgray"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="145dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txUserOccupation"
+                android:text="Employee Name"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="135dp"
+                android:layout_marginLeft="150dp"/>
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        android:background="@drawable/gray"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:clipToPadding="false">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false"
+                android:layout_marginBottom="15dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardUseCompatPadding="true"
+                    android:id="@+id/facility"
+                    android:elevation="5dp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/cardviewhom"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cardviewhom"
+                            android:src="@drawable/ee"
+                            android:padding="5dp" />
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="2dp"
+                            android:background="#999999"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            android:layout_marginTop="5dp"
+                            android:text="Budgeting"/>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/schedule"
+                    app:cardUseCompatPadding="true"
+                    android:elevation="5dp"
+                    app:cardBackgroundColor="@android:color/transparent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+
+                        android:background="@drawable/cardviewhom">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cardviewhom"
+                            android:src="@drawable/aa"
+                            android:padding="5dp"
+                            android:layout_marginTop="10dp"/>
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="2dp"
+                            android:background="#999999"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="  Nearest   Branch"
+                            android:textColor="#000"
+                            android:textSize="20dp"
+                            />
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:clipToPadding="false">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/employee"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:elevation="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/cardviewhom"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cardviewhom"
+                            android:src="@drawable/bbb"
+                            android:padding="5dp"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="2dp"
+                            android:background="#999999"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:text="  Number Queing"
+                            android:textSize="20dp"
+                            />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="170dp"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:id="@+id/report"
+                    app:cardUseCompatPadding="true"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:elevation="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/cardviewhom"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cardviewhom"
+                            android:src="@drawable/cc"
+                            android:padding="5dp"
+                            />
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="2dp"
+                            android:background="#999999"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:layout_marginTop="5dp"
+                            android:textColor="#000"
+                            android:text="YOUGuard"
+                            android:textSize="20dp"
+                            />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="310dp"
+                    android:layout_height="140dp"
+                    android:layout_margin="5dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    android:id="@+id/help"
+                    app:cardUseCompatPadding="true"
+                    android:elevation="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:background="@drawable/cardviewhom"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@drawable/cardviewhom"
+                            android:src="@drawable/dd"
+                            android:padding="5dp"
+                            android:layout_marginTop="5dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="2dp"
+                            android:background="#999999"
+                            android:layout_marginTop="7dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Talk with Bot"
+                            android:textSize="20dp"
+                            />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
