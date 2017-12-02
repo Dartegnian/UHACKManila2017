@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Username" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
@@ -10,6 +13,10 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="YOUnionBud.MainPage" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -26,6 +33,7 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -39,6 +47,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
@@ -48,6 +57,19 @@
       <RootProperty Name="Child" />
     </RootType>
     <RootType FullName="YOUnionBud.Views.Login" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="YOUnionBud.Views.UserSelection" />
     <RootType FullName="YOUnionBud.Views.Welcome" />
   </Roots.RootTypes>
 </Roots>

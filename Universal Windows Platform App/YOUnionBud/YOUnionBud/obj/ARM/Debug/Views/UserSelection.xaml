@@ -9,9 +9,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Orientation="Vertical">
-            <TextBlock x:Name="Title" Text="Select a User" FontSize="36" Margin="4" TextAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBlock x:ConnectionId='1' x:Name="Title" Text="Select a User" FontSize="36" Margin="4" TextAlignment="Center" HorizontalAlignment="Center"/>
 
-            <ListView x:Name="UserListView" Margin="4" MaxHeight="200" MinWidth="250" Width="250" HorizontalAlignment="Center">
+            <ListView x:ConnectionId='2' x:Name="UserListView" Margin="4" MaxHeight="200" MinWidth="250" Width="250" HorizontalAlignment="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Grid Background="DodgerBlue" Height="50" Width="250" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
@@ -21,7 +21,8 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Button x:Name="AddUserButton" Content="+" FontSize="36" Width="60" Click="AddUserButton_Click" HorizontalAlignment="Center"/>
+            <Button x:ConnectionId='3' x:Name="AddUserButton" Content="+" FontSize="36" Width="60"                             HorizontalAlignment="Center"/>
         </StackPanel>
     </Grid>
 </Page>
+

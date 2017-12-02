@@ -27,6 +27,7 @@ namespace YOUnionBud.Views
 
         private void Button_Restart_Click(object sender, RoutedEventArgs e)
         {
+            Frame.Navigate(typeof(UserSelection));
         }
 
         private void Button_Forget_User_Click(object sender, RoutedEventArgs e)
@@ -38,6 +39,9 @@ namespace YOUnionBud.Views
             AccountHelper.RemoveAccount(_activeAccount);
 
             Debug.WriteLine("User " + _activeAccount.Username + " deleted.");
+
+            // Navigate back to UserSelection page.
+            Frame.Navigate(typeof(UserSelection));
         }
     }
 }

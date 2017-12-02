@@ -1,4 +1,5 @@
 App.xbf
 MainPage.xbf
 Views\Login.xbf
+Views\UserSelection.xbf
 Views\Welcome.xbf

@@ -6,6 +6,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using YOUnionBud.Views;
+using YOUnionBud.Utils;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -35,9 +36,11 @@ namespace YOUnionBud
                 }
             }
         }
-        private void MainPage_Loaded(object sender, RoutedEventArgs e)
+        private async void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(Login));
+            // Load the local Accounts List before navigating to the UserSelection page
+            await AccountHelper.LoadAccountListAsync();
+            Frame.Navigate(typeof(UserSelection));
         }
     }
 }
